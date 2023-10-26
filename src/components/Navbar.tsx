@@ -4,14 +4,14 @@ import Link from "next/link";
 const Navbar = () => {
 	return (
 		<nav className="bg-transparent border-gray-200">
-			<div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-				<Link className="flex items-center" href="/">
+			<div className="max-w-screen-xl flex flex-wrap items-baseline justify-between mx-auto p-4">
+				<Link href="/">
 					<Image
 						src="/ingram_logo.png"
-						className="h-12 mr-3"
+						className="mr-3"
 						alt="Ingram logo"
-						width={300}
-						height={48}
+						width={200}
+						height={32}
 					/>
 				</Link>
 				<button
