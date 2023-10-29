@@ -7,7 +7,7 @@ const Navbar = () => {
 			<div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 				<Link className="flex items-center" href="/">
 					<Image
-						src="/ingram_logo.png"
+						src="/images/logo_darkmode.png"
 						className="h-12 mr-3"
 						alt="Ingram logo"
 						width={300}
