@@ -8,10 +8,10 @@ const Navbar = () => {
 				<Link className="flex items-center" href="/">
 					<Image
 						src="/images/logo_darkmode.png"
-						className="h-12 mr-3"
+						className=" mr-3"
 						alt="Ingram logo"
-						width={300}
-						height={48}
+						width={150}
+						height={24}
 					/>
 				</Link>
 				<button
@@ -55,6 +55,14 @@ const Navbar = () => {
 								className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
 							>
 								About
+							</Link>
+						</li>
+						<li>
+							<Link
+								href="/faraday"
+								className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
+							>
+								Faraday
 							</Link>
 						</li>
 						<li>
