@@ -1,14 +1,12 @@
 import Image from "next/image";
 import {GiProgression, GiShieldReflect, GiTechnoHeart} from "react-icons/gi";
 
-
 const features = [
 	{
 		name: "Expertise",
 		description: `A team of experts in Cybersecurity, AI and Business Intelligence based in France and Belgium, 30 years experience serving major groups and international organizations through the unique FARADAY technology. A partner network of AI researchers (REFIA) in 14 French-speaking countries.`,
 		href: "#",
 		icon: GiProgression,
-		
 	},
 	{
 		name: "Adaptability",
@@ -22,9 +20,7 @@ const features = [
 		Our meticulous boundary-setting defines the path our AI must tread, guaranteeing a safe user experience.`,
 		href: "#",
 		icon: GiShieldReflect,
-		
-	}
-	
+	},
 ];
 
 const Knowledge = () => {
@@ -36,12 +32,12 @@ const Knowledge = () => {
 						Move faster with our cutting-edge AI-powered tools
 					</h2>
 					<p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-					Everyone desires extra time, <br/> we make that a reality.
+						Everyone desires extra time, <br /> we make that a reality.
 					</p>
 					<p className="mt-6 text-lg leading-8 text-gray-300">
 						Get the answers you need <b>fast</b>.
 					</p>
-					<br/>
+					<br />
 					<p>
 						At <b>INGRAM</b>, we believe that the power of AI should be
 						accessible to all, without compromising security. Discover how
@@ -62,7 +58,6 @@ const Knowledge = () => {
 								<dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-300">
 									<p className="flex-auto">{feature.description}</p>
 								</dd>
-								
 							</div>
 						))}
 					</dl>
