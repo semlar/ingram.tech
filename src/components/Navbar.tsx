@@ -51,7 +51,7 @@ const Navbar = () => {
 						</li>
 						<li>
 							<Link
-								href="/product"
+								href="/solutions"
 								className="block py-2 pl-3 pr-4 text-white rounded hover:bg-blue-700 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
 							>
 								ToolBox
@@ -59,7 +59,7 @@ const Navbar = () => {
 						</li>
 						<li>
 							<Link
-								href="/faraday"
+								href="/about/faraday"
 								className="block py-2 pl-3 pr-4 text-white rounded hover:bg-blue-700 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
 							>
 								Faraday
