@@ -7,8 +7,8 @@ import "./globals.css";
 const inter = Inter({subsets: ["latin"]});
 
 export const metadata: Metadata = {
-	title: "Ingram",
-	description: "Your partner in AI",
+	title: "Ingram - The AI revolution is here.",
+	description: "We bring unique AI projects to life.",
 };
 
 const RootLayout = ({children}: {children: React.ReactNode}) => (
