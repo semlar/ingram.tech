@@ -8,14 +8,14 @@
 	{
 		"image": "pierre-buchet.jpg",
 		"name": "Pierre Buchet",
-		"title": "Chief Revenue Officer",
+		"title": "Chief Commercial Officer",
 		"description": "14 years in sales. Advises only the best in the business."
 	},
 	{
-		"image": "robert-nix.jpg",
-		"name": "Robert Nix",
-		"title": "Senior Architect",
-		"description": "Engineering at Twitch. Built services used by millions."
+		"image": "david-stewart.jpg",
+		"name": "David Stewart",
+		"title": "Chief Technology Officer",
+		"description": "Playing with GPT-2 since before it was cool."
 	},
 	{
 		"image": "amir-karimi.jpg",
@@ -30,16 +30,16 @@
 		"description": "Certified Stripe expert. Open Source rockstar."
 	},
 	{
-		"image": "david-stewart.jpg",
-		"name": "David Stewart",
-		"title": "Senior AI Engineer",
-		"description": "Playing with GPT-2 since before it was cool."
-	},
-	{
 		"image": "adrian-pascu.jpg",
 		"name": "Adrian Pascu",
 		"title": "Solutions Engineer",
 		"description": "Mad reverse engineer with a knack for Zettelkasten."
+	},
+	{
+		"image": "robert-nix.jpg",
+		"name": "Robert Nix",
+		"title": "Senior Architect",
+		"description": "Engineering at Twitch. Built services used by millions."
 	},
 	{
 		"image": "edwards-moses.jpg",
@@ -48,10 +48,22 @@
 		"description": "Stripe-certified specialist. Automation guru."
 	},
 	{
+		"image": "umberto-de-martino.jpg",
+		"name": "Umberto de Martino",
+		"title": "Business Development & Partnerships",
+		"description": "Entrepreneur and innovator. Thinks fast and networks faster."
+	},
+	{
+		"image": "florian-gimenez.jpg",
+		"name": "Florian Gimenez",
+		"title": "AI Solutions Consultant",
+		"description": "Problem solver with an unparalleled passion for AI."
+	},
+	{
 		"image": "julien-vandenbroucke.jpg",
 		"name": "Julien Vandenbroucke",
-		"title": "Technical Sales Lead",
-		"description": "Stripe expert. Problem solver. Never missed a beat."
+		"title": "Stripe Sales Lead",
+		"description": "Certified Stripe Expert. Never missed a beat."
 	},
 	{
 		"image": "anna-opanasenko.jpg",
