@@ -1,4 +1,3 @@
-import Image from "next/image";
 import {GiProgression, GiShieldReflect, GiTechnoHeart} from "react-icons/gi";
 
 const features = [
@@ -39,8 +38,8 @@ const Knowledge = () => {
 					</p>
 					<br />
 					<p>
-						At <b>INGRAM</b>, we believe that the power of AI should be
-						accessible to all, without compromising security. Discover how
+						We believe that the potential of AI should be accessible to all,
+						with no compromise to security or privacy. Discover how
 						we&apos;re making this possible.
 					</p>
 				</div>
