@@ -54,7 +54,7 @@ const Navbar = () => {
 								href="/solutions"
 								className="block py-2 pl-3 pr-4 text-white rounded hover:bg-blue-700 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
 							>
-								ToolBox
+								Solutions
 							</Link>
 						</li>
 						<li>
@@ -62,7 +62,7 @@ const Navbar = () => {
 								href="/about/faraday"
 								className="block py-2 pl-3 pr-4 text-white rounded hover:bg-blue-700 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
 							>
-								Faraday
+								Our AI Lab
 							</Link>
 						</li>
 						<li>
