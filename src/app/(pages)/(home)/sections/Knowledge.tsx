@@ -1,4 +1,3 @@
-import Image from "next/image";
 import {GiProgression, GiShieldReflect, GiTechnoHeart} from "react-icons/gi";
 
 const features = [
@@ -28,9 +27,6 @@ const Knowledge = () => {
 		<div className="bg-zinc-900 py-24 sm:py-32">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<div className="mx-auto max-w-2xl lg:text-center">
-					<h2 className="text-base font-semibold leading-7 text-indigo-400">
-						Move faster with our cutting-edge AI-powered tools
-					</h2>
 					<p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
 						Everyone desires extra time, <br /> we make that a reality.
 					</p>
@@ -39,8 +35,8 @@ const Knowledge = () => {
 					</p>
 					<br />
 					<p>
-						At <b>INGRAM</b>, we believe that the power of AI should be
-						accessible to all, without compromising security. Discover how
+						We believe that the potential of AI should be accessible to all,
+						with no compromise to security or privacy. Discover how
 						we&apos;re making this possible.
 					</p>
 				</div>

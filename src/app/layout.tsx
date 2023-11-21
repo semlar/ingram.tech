@@ -7,8 +7,8 @@ import Footer from "../components/Footer";
 const inter = Inter({subsets: ["latin"]});
 
 export const metadata: Metadata = {
-	title: "Ingram",
-	description: "Your partner in AI",
+	title: "Ingram - The AI revolution is here.",
+	description: "We bring unique AI projects to life.",
 };
 
 const RootLayout = ({children}: {children: React.ReactNode}) => (
@@ -19,7 +19,10 @@ const RootLayout = ({children}: {children: React.ReactNode}) => (
 				{children}
 				<Footer />
 			</main>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
+			<script
+				src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"
+				async
+			/>
 		</body>
 	</html>
 );
