@@ -8,7 +8,7 @@ const page = () => {
 			/>
 			<div className="mx-auto max-w-2xl lg:mx-0 px-6 lg:px-8">
 				<h2 className="text-6xl font-bold tracking-tight text-white sm:text-6xl">
-					Solution
+					Solutions
 				</h2>
 				<p className=" text-2xl font-bold text-indigo-400">
 					Personalized AI Solutions

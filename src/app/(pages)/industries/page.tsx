@@ -2,23 +2,23 @@ const page = () => {
 	return (
 		<div className=" py-24 sm:py-32">
 			<img
-				src="/industry.jpg"
+				src="/industries.jpg"
 				alt=""
 				className="absolute inset-0 opacity-5 mix-blend-color-dodge -z-10 h-full w-full object-cover "
 			/>
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<div className="mx-auto max-w-2xl lg:mx-0">
 					<h2 className="text-6xl font-bold tracking-tight text-white sm:text-6xl">
-						Industry
+						Industries
 					</h2>
 					<p className=" text-2xl font-bold text-indigo-400">
-						Industry-Specific Custom AI Applications
+						Who we can serve.
 					</p>
 				</div>
 				<div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none grid grid-cols-1 gap-20">
 					<div className="text-base font-semibold leading-7 text-white grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 items-center justify-between">
 						<div className="mb-6 h-64 w-64  ">
-							<img src="/images/industry/legal.svg" alt="" />
+							<img src="/images/industries/legal.svg" alt="" />
 						</div>
 						<div>
 							<p className="text-3xl font-bold text-indigo-400 mb-5">
@@ -47,7 +47,7 @@ const page = () => {
 					</div>
 					<div className="text-base font-semibold leading-7 text-white grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 items-center justify-between">
 						<div className="mb-6 h-64 w-64  ">
-							<img src="/images/industry/finance.svg" alt="" />
+							<img src="/images/industries/finance.svg" alt="" />
 						</div>
 						<div>
 							<p className="text-3xl font-bold text-indigo-400 mb-5">
@@ -80,7 +80,7 @@ const page = () => {
 					</div>
 					<div className="text-base font-semibold leading-7 text-white grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 items-center justify-between">
 						<div className="mb-6 h-64 w-64  ">
-							<img src="/images/industry/health.svg" alt="" />
+							<img src="/images/industries/health.svg" alt="" />
 						</div>
 						<div>
 							<p className="text-3xl font-bold text-indigo-400 mb-5">
@@ -112,7 +112,7 @@ const page = () => {
 					</div>
 					<div className="text-base font-semibold leading-7 text-white grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 items-center justify-between">
 						<div className="mb-6 h-64 w-64  ">
-							<img src="/images/industry/ecommerce.svg" alt="" />
+							<img src="/images/industries/ecommerce.svg" alt="" />
 						</div>
 						<div>
 							<p className="text-3xl font-bold text-indigo-400 mb-5">
@@ -144,7 +144,7 @@ const page = () => {
 					</div>
 					<div className="text-base font-semibold leading-7 text-white grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 items-center justify-between">
 						<div className="mb-6 h-64 w-64  ">
-							<img src="/images/industry/retail.svg" alt="" />
+							<img src="/images/industries/retail.svg" alt="" />
 						</div>
 						<div>
 							<p className="text-3xl font-bold text-indigo-400 mb-5">
@@ -171,7 +171,7 @@ const page = () => {
 					</div>
 					<div className="text-base font-semibold leading-7 text-white grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 items-center justify-between">
 						<div className="mb-6 h-64 w-64  ">
-							<img src="/images/industry/manufacturing.svg" alt="" />
+							<img src="/images/industries/manufacturing.svg" alt="" />
 						</div>
 						<div>
 							<p className="text-3xl font-bold text-indigo-400 mb-5">
@@ -207,7 +207,7 @@ const page = () => {
 					</div>
 					<div className="text-base font-semibold leading-7 text-white grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 items-center justify-between">
 						<div className="mb-6 h-64 w-64  ">
-							<img src="/images/industry/marketing.svg" alt="" />
+							<img src="/images/industries/marketing.svg" alt="" />
 						</div>
 						<div>
 							<p className="text-3xl font-bold text-indigo-400 mb-5">
@@ -240,7 +240,7 @@ const page = () => {
 					</div>
 					<div className="text-base font-semibold leading-7 text-white grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 items-center justify-between">
 						<div className="mb-6 h-64 w-64  ">
-							<img src="/images/industry/elearning.svg" alt="" />
+							<img src="/images/industries/elearning.svg" alt="" />
 						</div>
 						<div>
 							<p className="text-3xl font-bold text-indigo-400 mb-5">

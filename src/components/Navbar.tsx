@@ -59,10 +59,10 @@ const Navbar = () => {
 						</li>
 						<li>
 							<Link
-								href="/industry"
+								href="/industries"
 								className="text-lg block py-2 pl-3 pr-4 text-white rounded hover:bg-blue-700 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
 							>
-								Industry
+								Industries
 							</Link>
 						</li>
 						<li>
