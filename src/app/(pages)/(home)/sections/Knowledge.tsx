@@ -24,15 +24,15 @@ const features = [
 
 const Knowledge = () => {
 	return (
-		<div className="bg-zinc-900 py-24 sm:py-32">
+		<div className="py-24 sm:py-32">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<div className="mx-auto max-w-2xl lg:text-center">
-					<p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
+					<h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
 						Everyone desires extra time, <br /> we make that a reality.
-					</p>
-					<p className="mt-6 text-lg leading-8 text-gray-300">
-						Get the answers you need <b>fast</b>.
-					</p>
+					</h1>
+					<h2 className="mt-6 text-xl leading-8 ">
+						Get the answers you need <span style={{color: "#FB5956"}}>fast</span>.
+					</h2>
 					<br />
 					<p>
 						We believe that the potential of AI should be accessible to all,
@@ -44,12 +44,13 @@ const Knowledge = () => {
 					<dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
 						{features.map((feature) => (
 							<div key={feature.name} className="flex flex-col">
-								<dt className="flex  items-center gap-x-3 text-base font-semibold leading-7 text-white">
+								<dt className="flex  items-center gap-x-3 ">
 									<feature.icon
-										className="h-5 w-5 flex-none text-indigo-400"
+										className="h-5 w-5 flex-none "
+										style={{color:"#FB5956"}}
 										aria-hidden="true"
 										/>
-										<h3>{feature.name}</h3>
+										<h1 className="text-2xl" style={{color: "#FB5956"}}>{feature.name}</h1>
 								</dt>
 								<dd className="mt-4 flex flex-auto flex-col text-base leading-7 ">
 									<p className="flex-auto">{feature.description}</p>

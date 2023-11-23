@@ -30,15 +30,15 @@ const features = [
 
 const Solutions = () => {
 	return (
-		<div className="bg-zinc-900 py-24 sm:py-16">
+		<div className=" py-24 sm:py-16">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<div className="mx-auto max-w-2xl lg:mx-0">
-					<p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-5xl">
+					<h1 className="mt-2 text-3xl sm:text-5xl">
 						Solutions
-					</p>
-					<h2 className="text-base font-semibold leading-7 text-indigo-400">
+					</h1>
+					<h3>
 						KEY EXPERTISE
-					</h2>
+					</h3>
 				</div>
 				<div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-16 lg:max-w-none">
 					<dl className="grid max-w-xl grid-cols-2 text-center gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
@@ -50,7 +50,7 @@ const Solutions = () => {
 										src={feature.image}
 										alt=""
 									/>
-									<h4>{feature.name}</h4>
+									<h2>{feature.name}</h2>
 								</dt>
 							</div>
 						))}
@@ -58,8 +58,8 @@ const Solutions = () => {
 				</div>
 			</div>
 			<div className="flex justify-center mt-10">
-				<button className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-					<Link href="/solutions">Discover more</Link>
+				<button style={{backgroundColor: "#FB5956"}} className="rounded-md  px-3.5 py-2.5 text-sm font-semibold text-white ">
+					<Link style={{backgroundColor: "#FB5956"}} href="/solutions">Discover more</Link>
 				</button>
 			</div>
 		</div>

@@ -13,9 +13,9 @@ const page = () => {
 					<h2 className="text-6xl font-bold tracking-tight text-white sm:text-6xl">
 						Industry
 					</h2>
-					<p className=" text-2xl font-bold text-indigo-400">
+					<h3 className=" text-2xl font-bold ">
 						Industry-Specific Custom AI Applications
-					</p>
+					</h3>
 				</div>
 				<div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none grid grid-cols-1 gap-20">
 					<div className="text-base font-semibold leading-7 text-white grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 items-center justify-between">
@@ -23,9 +23,9 @@ const page = () => {
 							<img src="/images/industry/legal.svg" alt="" />
 						</div>
 						<div>
-							<p className="text-3xl font-bold text-indigo-400 mb-5">
+							<h3 className="text-3xl font-bold  mb-5">
 								Legal Services
-							</p>
+							</h3>
 							<ul>
 								<li>
 									<span>Legal research :</span>{" "}
@@ -57,9 +57,9 @@ const page = () => {
 							<img src="/images/industry/finance.svg" alt="" />
 						</div>
 						<div>
-							<p className="text-3xl font-bold text-indigo-400 mb-5">
+							<h3 className="text-3xl font-bold  mb-5">
 								Finance and Banking
-							</p>
+							</h3>
 							<ul>
 								<li>
 									<span>
@@ -96,9 +96,9 @@ const page = () => {
 							<img src="/images/industry/health.svg" alt="" />
 						</div>
 						<div>
-							<p className="text-3xl font-bold text-indigo-400 mb-5">
+							<h3 className="text-3xl font-bold  mb-5">
 								Healthcare and Pharmaceuticals
-							</p>
+							</h3>
 							<ul>
 								<li>
 									<span>
@@ -135,9 +135,9 @@ const page = () => {
 							<img src="/images/industry/ecommerce.svg" alt="" />
 						</div>
 						<div>
-							<p className="text-3xl font-bold text-indigo-400 mb-5">
+							<h3 className="text-3xl font-bold  mb-5">
 								Retail and E-commerce
-							</p>
+							</h3>
 							<ul>
 								<li>
 									<span>
@@ -171,9 +171,9 @@ const page = () => {
 							<img src="/images/industry/retail.svg" alt="" />
 						</div>
 						<div>
-							<p className="text-3xl font-bold text-indigo-400 mb-5">
+							<h3 className="text-3xl font-bold  mb-5">
 								Real Estate and Property Management
-							</p>
+							</h3>
 							<ul>
 								<li>
 									<span>
@@ -200,9 +200,9 @@ const page = () => {
 							<img src="/images/industry/manufacturing.svg" alt="" />
 						</div>
 						<div>
-							<p className="text-3xl font-bold text-indigo-400 mb-5">
+							<h3 className="text-3xl font-bold  mb-5">
 								Manufacturing and Supply Chain
-							</p>
+							</h3>
 							<ul>
 								<li>
 									<span>
@@ -240,9 +240,9 @@ const page = () => {
 							<img src="/images/industry/marketing.svg" alt="" />
 						</div>
 						<div>
-							<p className="text-3xl font-bold text-indigo-400 mb-5">
+							<h3 className="text-3xl font-bold  mb-5">
 								Marketing and Advertising
-							</p>
+							</h3>
 							<ul>
 								<li>
 									<span>
@@ -280,9 +280,9 @@ const page = () => {
 							<img src="/images/industry/elearning.svg" alt="" />
 						</div>
 						<div>
-							<p className="text-3xl font-bold text-indigo-400 mb-5">
+							<h3 className="text-3xl font-bold  mb-5">
 								Education and E-Learning
-							</p>
+							</h3>
 							<ul>
 								<li>
 									<span>

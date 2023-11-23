@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@800&family=Roboto+Slab:wght@500&display=swap');
 @font-face {
 	font-family: "Android";
 	src: url("../../public/fonts/YoungSerif-Regular.ttf");
@@ -9,31 +10,50 @@
 	font-style: normal;
 }
 
+*{
+	background-color: #22577a;
+}
+
+
 @layer base {
 	h1 {
-		@apply font-extrabold text-7xl text-white;
-		font-family: "Android", sans-serif;
+		@apply  text-7xl ;
+		font-family: 'Poppins', sans-serif ;
+		font-weight: 800;
+		color: white
 	}
 
 	h2 {
-		@apply font-extrabold text-5xl mb-3 text-white;
+		@apply   text-white;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 600
+		
 	}
 	h3 {
-		@apply font-extrabold text-2xl  text-indigo-400;
+		@apply  text-2xl  ;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 600;
+		color: #FB5956
 	}
 	h4 {
-		@apply font-extrabold text-xl  text-indigo-400;
+		@apply  text-xl  ;
+		color: #FB5956
 	}
 
 	p {
 		@apply text-white text-lg;
-		font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400
 	}
 	span {
 		@apply text-white text-xl ;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 600
 	}
 	li {
 		@apply text-gray-400 text-sm ;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400
 	}
 }
 
@@ -42,3 +62,5 @@
 		font-size: 8vh;
 	}
 }
+
+svg#freepik_stories-online-world:not(.animated) .animable {opacity: 0;}svg#freepik_stories-online-world.animated #freepik--World--inject-1--inject-5 {animation: 1.5s Infinite  linear floating;animation-delay: 0s;}            @keyframes floating {                0% {                    opacity: 1;                    transform: translateY(0px);                }                50% {                    transform: translateY(-10px);                }                100% {                    opacity: 1;                    transform: translateY(0px);                }            }        .animator-hidden { display: none; }

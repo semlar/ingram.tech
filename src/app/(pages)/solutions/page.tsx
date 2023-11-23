@@ -10,9 +10,9 @@ const page = () => {
 				<h2 className="text-6xl font-bold tracking-tight text-white sm:text-6xl">
 					Solution
 				</h2>
-				<p className=" text-2xl font-bold text-indigo-400">
+				<h3 className=" text-2xl font-bold ">
 					Personalized AI Solutions
-				</p>
+				</h3>
 			</div>
 			<div className="my-20 flex flex-col sm:flex-col md:flex-col lg:flex-row justify-between items-center">
 				<div className="w-full sm:w-full md:w-full lg:w-6/12 order-3 lg:order-1">
