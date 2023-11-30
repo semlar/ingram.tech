@@ -2,8 +2,8 @@
 	{
 		"image": "jerome-leclanche.jpg",
 		"name": "Jerome Leclanche",
-		"title": "Founder, Director",
-		"description": "Software Engineer since 2005. Repeat founder."
+		"title": "Managing Director",
+		"description": "The Founder. Software Engineer since 2005."
 	},
 	{
 		"image": "pierre-buchet.jpg",
@@ -58,6 +58,12 @@
 		"name": "Florian Gimenez",
 		"title": "AI Solutions Consultant",
 		"description": "Problem solver with an unparalleled passion for AI."
+	},
+	{
+		"image": "henriette-roggeman.jpg",
+		"name": "Henriette Roggeman",
+		"title": "UX/UI Designer",
+		"description": "Artist at heart. Designing beautiful experiences."
 	},
 	{
 		"image": "julien-vandenbroucke.jpg",
